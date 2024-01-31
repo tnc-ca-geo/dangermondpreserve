@@ -1,0 +1,30 @@
+{
+  "actions": [
+    {
+      "attrib": {
+        "sensor_depth": 0
+      }
+    }
+  ],
+  "description": "Sensor Depth @ ",
+  "intervals": [
+    {
+      "begins_at": "",
+      "ends_before": ""
+    }
+  ],
+  "station_ids": [
+    ""
+  ],
+  "title": "Sensor Depth",
+  "organization_id": "5eb41ff0883adf89568569d0",
+  "is_enabled": true,
+  "state": "approved",
+  "affected_station_ids": [
+    ""
+  ],
+  "access_levels_resolved": {
+    "member_level": 3,
+    "public_level": 3
+  }
+}

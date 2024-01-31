@@ -1,0 +1,35 @@
+{
+    "organization_id": "5eb41ff0883adf89568569d0",
+    "spec":
+    {
+        "comment": "Template for well data csvs",
+        "method": "csv",
+        "options":
+        {
+            "cast_nan":
+            [
+                "INF",
+                "NAN",
+                "NaN"
+            ],
+            "columns_name": "safe",
+            "context":
+            {
+                "source": "/tnc/station_jldp_wells/source_WELLNAME_xle_lev"
+            },
+            "dry_run": true,
+            "from_line": 1,
+            "skip_columns":
+            [
+                "seq_id"
+            ],
+            "time_adjust": 0
+        }
+    },
+    "spec_type": "file/import",
+    "station_id": "STATIONID",
+    "storage":
+    {
+        "method": "minio"
+    }
+}
