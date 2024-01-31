@@ -1,2 +1,11 @@
 .env
 .READMEFIRST.txt
+Notebooks/DendraJSONs/Annotations/
+Notebooks/DendraJSONs/Data/
+Notebooks/DendraJSONs/Datastreams/
+Notebooks/DendraJSONs/Stations/
+Notebooks/__pycache__/
+Notebooks/.ipynb_checkpoints/
+Notebooks/.ipynb_checkpoints/dendra_metadata-checkpoint.ipynb
+Notebooks/.ipynb_checkpoints/well_data_dendra_create_new_stations-checkpoint.ipynb
+Notebooks/.ipynb_checkpoints/well_data_dendra_ingestnew-checkpoint.ipynb
