@@ -1,0 +1,31 @@
+{
+    "actions": [
+      {
+        "exclude": true
+      }
+    ],
+    "description": "Automatically generated annotation for this station which excludes data from the start and ends of a data-collection period as well as outliers and negative values",
+    "intervals": [],
+    "involved_parties": [
+      {
+        "person_id": "6355f304b055ac1c048427c5",
+        "roles": [
+          "contact",
+          "reporter",
+          "approver"
+        ]
+      }
+    ],
+    "title": "",
+    "organization_id": "5eb41ff0883adf89568569d0",
+    "station_ids": [],
+    "is_enabled": true,
+    "state": "approved",
+    "version_id": "64ed04c95c0d5fe4a6695b3e",
+    "affected_station_ids": [""],
+    "access_levels_resolved": {
+      "member_level": 3,
+      "public_level": 3
+    }
+  }
+  
