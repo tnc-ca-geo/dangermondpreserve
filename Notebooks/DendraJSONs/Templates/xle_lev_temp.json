@@ -1,0 +1,102 @@
+{
+  "datapoints_config": [
+    {
+      "begins_at": "2000-01-01T08:00:00.000Z",
+      "params": {
+        "query": {
+          "api": "tnc",
+          "db": "station_jldp_wells",
+          "fc": "source_WELL_xle_lev",
+          "sc": "\"time\", \"temperature_C\", \"temperature_F\"-32*(5/9)",
+          "utc_offset": -28800,
+          "coalesce": true
+        }
+      },
+      "path": "/influx/select"
+    }
+  ],
+  "description": "Water Temperature from xle/lev at Dangermond STATIONNAME",
+  "is_enabled": true,
+  "is_geo_protected": false,
+  "is_hidden": false,
+  "name": "Well Water Temperature xle/lev",
+  "source_type": "sensor",
+  "state": "ready",
+  "terms": {
+    "dq": {
+      "Measurement": "WaterTemperature",
+      "Purpose": "Raw"
+    },
+    "ds": {
+      "Medium": "GroundWater",
+      "Variable": "Temperature"
+    },
+    "dt": {
+      "Unit": "DegreeCelsius"
+    }
+  },
+  "organization_id": "5eb41ff0883adf89568569d0",
+  "version_id": "64d4273f0209696916a06c9f",
+  "created_by": "6355f379b055ac27fb8427c7",
+  "updated_by": "5d478bc6f801f09578f30845",
+  "terms_info": {
+    "class_keys": [
+      "dq__Measurement_WaterTemperature__Purpose_Raw",
+      "ds__Medium_GroundWater__Variable_Temperature"
+    ],
+    "class_tags": [
+      "dq_Measurement_WaterTemperature",
+      "dq_Purpose_Raw",
+      "ds_Medium_GroundWater",
+      "ds_Variable_Temperature"
+    ],
+    "unit_tag": "dt_Unit_DegreeCelsius"
+  },
+  "datapoints_config_built": [
+    {
+      "begins_at": "2001-01-01T08:00:00.000Z",
+      "ends_before": "2200-01-01T08:00:00.000Z",
+      "ref": 0
+    }
+  ],
+  "datapoints_config_refd": [
+    {
+      "params": {
+        "query": {
+          "api": "tnc",
+          "db": "station_jldp_wells",
+          "fc": "source_WELL_xle_lev",
+          "sc": "\"time\", \"temperature_C\", \"temperature_F\"-32*(5/9)",
+          "utc_offset": -28800,
+          "coalesce": true
+        }
+      },
+      "path": "/influx/select"
+    }
+  ],
+  "extent": {
+    "begins_at": "2001-01-01T08:00:00.000Z",
+    "ends_before": "2200-01-01T08:00:00.000Z"
+  },
+  "access_levels_resolved": {
+    "member_level": 3,
+    "public_level": 3
+  },
+  "general_config_resolved": {
+    "brand_color": "2E7D32",
+    "default_time_zone": "PST",
+    "loggernet_server": "csi.dendra.science:60601",
+    "sample_interval": 600000,
+    "station_offline_threshold": 240
+  },
+  "organization_lookup": {
+    "name": "The Nature Conservancy",
+    "slug": "tnc"
+  },
+  "station_lookup": {
+    "name": "STATIONNAME",
+    "slug": "STATIONSLUG",
+    "time_zone": "PST",
+    "utc_offset": -28800
+  }
+}
