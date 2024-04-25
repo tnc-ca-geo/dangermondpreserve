@@ -48,7 +48,7 @@
     
     #Get existing datastream
     r = requests.get(url + "datastreams", headers=headers, params = {
-        "station_id": "654bf9492457b360fd240160",
+        "station_id": d_well_id,
     }) 
     assert r.status_code == 200
 
