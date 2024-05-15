@@ -1,0 +1,73 @@
+{
+  "datapoints_config": [
+    {
+      "begins_at": "2023-01-01T08:00:00.000Z",
+      "params": {
+        "query": {
+          "api": "tnc",
+          "db": "ranchbot",
+          "fc": "DEVICEID",
+          "sc": "\"time\", \"sensor_107_degc_VARIABLEID\"",
+          "source" : "/tnc/ranchbot/DEVICEID",
+          "utc_offset": -28800,
+          "coalesce": false
+        }
+      },
+      "path": "/influx/select"
+    }
+  ],
+  "description": "Water Temperature collected by Ranchbot device DEVICEID at STATIONNAME",
+  "is_enabled": true,
+  "is_geo_protected": false,
+  "is_hidden": false,
+  "name": "Ranchbot Well Water Temperature",
+  "source_type": "sensor",
+  "state": "ready",
+  "station_id": "STATIONID",
+  "terms": {
+    "dq": {
+      "Measurement": "WaterTemperature",
+      "Purpose": "ReadytoUse"
+    },
+    "ds": {
+      "Medium": "GroundWater",
+      "Variable": "Temperature"
+    },
+    "dt": {
+      "Unit": "DegreeCelsius"
+    }
+  },
+  "organization_id": "5eb41ff0883adf89568569d0",
+  "terms_info": {
+    "class_keys": [
+      "dq__Measurement_WaterTemperature__Purpose_ReadytoUse",
+      "ds__Medium_GroundWater__Variable_Temperature"
+    ],
+    "class_tags": [
+      "dq_Measurement_WaterTemperature",
+      "dq_Purpose_ReadytoUse",
+      "ds_Medium_GroundWater",
+      "ds_Variable_Temperature"
+    ],
+    "unit_tag": "dt_Unit_DegreeCelsius"
+  },
+  "extent": {
+    "begins_at": "2023-01-01T08:00:00.000Z",
+    "ends_before": "2200-02-02T00:00:00.000Z"
+  },
+  "access_levels_resolved": {
+    "member_level": 3,
+    "public_level": 3
+  },
+  "general_config_resolved": {
+    "brand_color": "2E7D32",
+    "default_time_zone": "PST",
+    "loggernet_server": "csi.dendra.science:60601",
+    "sample_interval": 3600000,
+    "station_offline_threshold": 240
+  },
+  "organization_lookup": {
+    "name": "The Nature Conservancy",
+    "slug": "tnc"
+  }
+}

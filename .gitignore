@@ -9,3 +9,5 @@ Notebooks/.ipynb_checkpoints/
 Notebooks/.ipynb_checkpoints/dendra_metadata-checkpoint.ipynb
 Notebooks/.ipynb_checkpoints/well_data_dendra_create_new_stations-checkpoint.ipynb
 Notebooks/.ipynb_checkpoints/well_data_dendra_ingestnew-checkpoint.ipynb
+/Notebooks/DendraJSONs/Requests
+/ArcGIS Tools/Utils/__pycache__

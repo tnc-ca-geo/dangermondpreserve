@@ -1,0 +1,34 @@
+﻿api,db,fc,source,column,station,station_id,sensor_depth
+tnc,ranchbot,device_01555382sky70cb,/tnc/ranchbot/device_01555382sky70cb,sensor_106_volts_141400,Dangermond Old Espada Water Tank,6642949a604ca1e8efc909ae,
+tnc,ranchbot,device_01555382sky70cb,/tnc/ranchbot/device_01555382sky70cb,sensor_109_mm_195175,Dangermond Old Espada Water Tank,6642949a604ca1e8efc909ae,
+tnc,ranchbot,device_01555382sky70cb,/tnc/ranchbot/device_01555382sky70cb,sensor_129_cm_141398,Dangermond Old Espada Water Tank,6642949a604ca1e8efc909ae,
+tnc,ranchbot,device_01978261skyb026,/tnc/ranchbot/device_01978261skyb026,sensor_106_volts_195324,Dangermond Escondido 5,64dbe9ca5c0d5f0fd8694a9f,93.9
+tnc,ranchbot,device_01978261skyb026,/tnc/ranchbot/device_01978261skyb026,sensor_107_degc_195322,Dangermond Escondido 5,64dbe9ca5c0d5f0fd8694a9f,93.9
+tnc,ranchbot,device_01978261skyb026,/tnc/ranchbot/device_01978261skyb026,sensor_109_mm_197851,Dangermond Escondido 5,64dbe9ca5c0d5f0fd8694a9f,93.9
+tnc,ranchbot,device_01978261skyb026,/tnc/ranchbot/device_01978261skyb026,sensor_127_m_196054,Dangermond Escondido 5,64dbe9ca5c0d5f0fd8694a9f,93.9
+tnc,ranchbot,device_02045919sky0198,/tnc/ranchbot/device_02045919sky0198,sensor_106_volts_214654,Dangermond Oaks 2,64dbe9cc5526459b7e3ea328,304
+tnc,ranchbot,device_02045919sky0198,/tnc/ranchbot/device_02045919sky0198,sensor_107_degc_214653,Dangermond Oaks 2,64dbe9cc5526459b7e3ea328,304
+tnc,ranchbot,device_02045919sky0198,/tnc/ranchbot/device_02045919sky0198,sensor_109_mm_223691,Dangermond Oaks 2,64dbe9cc5526459b7e3ea328,304
+tnc,ranchbot,device_02061364sky0341,/tnc/ranchbot/device_02061364sky0341,sensor_106_volts_214575,Dangermond Escondido 3,64d3cbe75c0d5f2b526942c8,105.41
+tnc,ranchbot,device_02061364sky0341,/tnc/ranchbot/device_02061364sky0341,sensor_107_degc_214573,Dangermond Escondido 3,64d3cbe75c0d5f2b526942c8,105.41
+tnc,ranchbot,device_02061364sky0341,/tnc/ranchbot/device_02061364sky0341,sensor_109_mm_225791,Dangermond Escondido 3,64d3cbe75c0d5f2b526942c8,105.41
+tnc,ranchbot,device_02061364sky0341,/tnc/ranchbot/device_02061364sky0341,sensor_127_m_225790,Dangermond Escondido 3,64d3cbe75c0d5f2b526942c8,105.41
+tnc,ranchbot,device_02061366sky0b4b,/tnc/ranchbot/device_02061366sky0b4b,sensor_106_volts_214663,Dangermond Tinta 5,64dbe9d02148dbf70d481b1c,221
+tnc,ranchbot,device_02061366sky0b4b,/tnc/ranchbot/device_02061366sky0b4b,sensor_107_degc_214665,Dangermond Tinta 5,64dbe9d02148dbf70d481b1c,221
+tnc,ranchbot,device_02061366sky0b4b,/tnc/ranchbot/device_02061366sky0b4b,sensor_109_mm_221176,Dangermond Tinta 5,64dbe9d02148dbf70d481b1c,221
+tnc,ranchbot,device_02061366sky0b4b,/tnc/ranchbot/device_02061366sky0b4b,sensor_127_m_221175,Dangermond Tinta 5,64dbe9d02148dbf70d481b1c,221
+tnc,ranchbot,device_02061613sky6c1e,/tnc/ranchbot/device_02061613sky6c1e,sensor_106_volts_214548,Dangermond Tinta 2,64dbe9cf552645b01c3ea32e,151.9
+tnc,ranchbot,device_02061613sky6c1e,/tnc/ranchbot/device_02061613sky6c1e,sensor_107_degc_214547,Dangermond Tinta 2,64dbe9cf552645b01c3ea32e,151.9
+tnc,ranchbot,device_02061613sky6c1e,/tnc/ranchbot/device_02061613sky6c1e,sensor_127_m_225306,Dangermond Tinta 2,64dbe9cf552645b01c3ea32e,151.9
+tnc,ranchbot,device_02068624sky010d,/tnc/ranchbot/device_02068624sky010d,sensor_106_volts_214570,Dangermond Oaks 5,64dbe9cd80818736f7c90393,106.69
+tnc,ranchbot,device_02068624sky010d,/tnc/ranchbot/device_02068624sky010d,sensor_107_degc_214571,Dangermond Oaks 5,64dbe9cd80818736f7c90393,106.69
+tnc,ranchbot,device_02068624sky010d,/tnc/ranchbot/device_02068624sky010d,sensor_109_mm_221448,Dangermond Oaks 5,64dbe9cd80818736f7c90393,106.69
+tnc,ranchbot,device_02068624sky010d,/tnc/ranchbot/device_02068624sky010d,sensor_127_m_221447,Dangermond Oaks 5,64dbe9cd80818736f7c90393,106.69
+tnc,ranchbot,device_02068633skya53a,/tnc/ranchbot/device_02068633skya53a,sensor_106_volts_214375,Dangermond Tinta 6,64dbe9d0f1438d0bbc4dd9d3,242.49
+tnc,ranchbot,device_02068633skya53a,/tnc/ranchbot/device_02068633skya53a,sensor_107_degc_214374,Dangermond Tinta 6,64dbe9d0f1438d0bbc4dd9d3,242.49
+tnc,ranchbot,device_02068633skya53a,/tnc/ranchbot/device_02068633skya53a,sensor_109_mm_214377,Dangermond Tinta 6,64dbe9d0f1438d0bbc4dd9d3,242.49
+tnc,ranchbot,device_02068633skya53a,/tnc/ranchbot/device_02068633skya53a,sensor_127_m_225302,Dangermond Tinta 6,64dbe9d0f1438d0bbc4dd9d3,242.49
+tnc,ranchbot,device_02068638sky3953,/tnc/ranchbot/device_02068638sky3953,sensor_106_volts_214590,Dangermond Lower Jalama Vaqueros,64dbe9cbf1438d667c4dd9cd,70.1
+tnc,ranchbot,device_02068638sky3953,/tnc/ranchbot/device_02068638sky3953,sensor_107_degc_214589,Dangermond Lower Jalama Vaqueros,64dbe9cbf1438d667c4dd9cd,70.1
+tnc,ranchbot,device_02068638sky3953,/tnc/ranchbot/device_02068638sky3953,sensor_109_mm_221165,Dangermond Lower Jalama Vaqueros,64dbe9cbf1438d667c4dd9cd,70.1
+tnc,ranchbot,device_02068638sky3953,/tnc/ranchbot/device_02068638sky3953,sensor_127_m_221164,Dangermond Lower Jalama Vaqueros,64dbe9cbf1438d667c4dd9cd,70.1
