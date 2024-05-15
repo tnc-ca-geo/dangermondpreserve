@@ -1,0 +1,76 @@
+{
+  "datapoints_config": [
+    {
+      "begins_at": "2023-01-01T08:00:00.000Z",
+      "params": {
+        "query": {
+          "api": "tnc",
+          "db": "ranchbot",
+          "fc": "DEVICEID",
+          "source": "/tnc/ranchbot/DEVICEID",
+          "sc": "\"time\", \"sensor_106_volts_VARIABLEID\"",
+          "utc_offset": -28800,
+          "coalesce": false
+        }
+      },
+      "path": "/influx/select",
+      "actions": {
+        "evaluate": "v = number(v)"
+      }
+    }
+  ],
+  "description": "Ranchbot Battery Voltage at STATIONNAME",
+  "is_enabled": true,
+  "is_geo_protected": false,
+  "is_hidden": false,
+  "name": "Ranchbot Battery Voltage",
+  "source_type": "sensor",
+  "state": "ready",
+  "station_id": "STATIONID",
+  "terms": {
+    "dq": {
+      "Measurement": "BatteryVoltage",
+      "Purpose": "StatusInformation"
+    },
+    "ds": {
+      "Medium": "Battery",
+      "Variable": "Voltage"
+    },
+    "dt": {
+      "Unit": "Volt"
+    }
+  },
+  "organization_id": "5eb41ff0883adf89568569d0",
+  "terms_info": {
+    "class_keys": [
+      "dq__Measurement_BatteryVoltage__Purpose_StatusInformation",
+      "ds__Medium_Battery__Variable_Voltage"
+    ],
+    "class_tags": [
+      "dq_Measurement_BatteryVoltage",
+      "dq_Purpose_StatusInformation",
+      "ds_Medium_Battery",
+      "ds_Variable_Voltage"
+    ],
+    "unit_tag": "dt_Unit_Volt"
+  },
+  "extent": {
+    "begins_at": "2023-01-01T08:00:00.000Z",
+    "ends_before": "2200-02-02T00:00:00.000Z"
+  },
+  "access_levels_resolved": {
+    "member_level": 3,
+    "public_level": 3
+  },
+  "general_config_resolved": {
+    "brand_color": "2E7D32",
+    "default_time_zone": "PST",
+    "loggernet_server": "csi.dendra.science:60601",
+    "sample_interval": 3600000,
+    "station_offline_threshold": 240
+  },
+  "organization_lookup": {
+    "name": "The Nature Conservancy",
+    "slug": "tnc"
+  }
+}
