@@ -19,7 +19,7 @@
     headers['Authorization'] = token
 
     #Find the well to upload to
-    with arcpy.da.SearchCursor(well, ['Well_Name', 'URL']) as well_cur:
+    with arcpy.da.SearchCursor(well, ['Name_of_Well', 'well_url']) as well_cur:
         well_arr = well_cur.next()
     del well_cur
 
